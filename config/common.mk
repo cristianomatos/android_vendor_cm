@@ -77,6 +77,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
+# Audio FX
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/custom/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk:system/priv-app/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
@@ -150,7 +154,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    AudioFX \
     CMWallpapers \
     CMFileManager \
     Eleven \
