@@ -78,8 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
 # Audio FX
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/custom/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk:system/priv-app/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/custom/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk:system/priv-app/ViPER4Android/ViPER4Android_FX_v2401_A4.x-A6.x.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
+
+# ViPER4Android FX
+PRODUCT_PACKAGES += \
+    ViPER4Android
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
