@@ -163,6 +163,12 @@ PRODUCT_PACKAGES += \
     DataUsageProvider \
     WallpaperPicker
 
+# Omni DSP
+PRODUCT_PACKAGES += \
+    audio_effects-dsp.conf \
+    DSPManager \
+    libcyanogen-dsp
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
